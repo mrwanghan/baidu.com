@@ -1,0 +1,169 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.header .headerUl{
+	margin-top: 19px;
+}
+.header .headerUl::after{
+		content: '';
+		display: block;
+		clear: both;
+}
+.header .headerUl li{
+	float: right;
+	height: 25px;
+}
+.header .headerUl li a{
+	margin-right: 0px;
+	color: #333;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-left: 20px;
+    font-size: 13px;
+}
+.header .headerUl li .xiti{
+	font-weight: lighter;
+}
+.header .headerUl li .more{
+	font-weight: lighter;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 4px;
+	background: #38f;
+	margin-right: 13px;
+}
+
+.search {
+	margin-top: 8px;
+	text-align: center;
+}
+
+.search img {
+	width: 270px;
+	height: 129px;
+}
+.search form div {
+	position: relative;
+	display: inline-block;
+}
+.search .searchInp input {
+	margin-top: 22px;
+	padding-top: 18px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	width: 539px;
+	height: 0px;
+	font-size: 17px;
+}
+
+.search .searchInp #searchUl {
+	position: absolute;
+	display: none;
+	border: 1px solid #ccc;
+	width: 661px;
+	height: 200px;
+	top: 59px;
+	overflow: hidden;
+	z-index: 1;
+}
+.search .searchInp #searchUl li {
+	height: 27px;
+	line-height: 27px;
+	text-align: left;
+	text-indent: 1em;
+}
+.search .searchInp #searchUl li:hover{
+	background: #e6e6e6;
+}
+.search .searchInp #searchUl li a{
+	font-size:17px; 
+	color: black;
+	text-decoration:none;
+	cursor: default;
+}
+.search .searchInp span{
+	margin-top: 2px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	background-image: url('camera.png');
+}
+.search .submit input{
+	margin-left: -5px;
+    margin-top: -1px;
+	width: 100px;
+    height: 38px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    border: 0px;
+    padding: 0px;
+	cursor: pointer;
+}
+
+.info {
+	text-align: center;
+	position: relative;
+    top: 200px;
+}
+
+.info .weixin p {
+	/*margin: 3px 0 0 5px;*/
+	/*font-weight: 700;*/
+}
+.info .weixin p span {
+	font-size: 8px;
+	color: #666;
+}
+.info .message {
+	height: 50px;
+    position: absolute;
+	top: 100px;
+    bottom: 47px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+	font-size: 12px; 
+	color: #999;
+}
+.info .message a{
+	color: #999;	
+}
+.info .message .mt a{
+	margin-left: 25px;
+}
+.info .message .mp {
+	margin-top: 5px;
+}
+.info .message .mp .jgaw{
+	margin-left: 19px;
+}
+.info .message span{
+	position: relative;
+	top: 3px;
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+	background-size:100% 100%; 
+}
+#pic1{
+	background-image:url('1.png'); 
+}
+#pic2{
+	background-image:url('2.png'); 
+}
+
+
